@@ -1,0 +1,24 @@
+%% Transcripción del Autónomo 1, con cierre y repetición explícitos.
+%% Cancelar es una salida complementaria ya usada en el Autónomo 2.
+flowchart TD
+    A([Inicio]) --> B[Mostrar reglas]
+    B --> S[Solicitar opción al jugador]
+    S --> C[/Ingresar opción del jugador/]
+    C --> D{¿Canceló?}
+    D -- Sí --> Z([Fin: cerrar ventana])
+    D -- No --> F{¿Es 1, 2 o 3?}
+    F -- No --> G[Mostrar error]
+    G --> B
+    F -- Sí --> H[Computadora elige al azar]
+    H --> P[Comparar elecciones]
+    P --> I{¿Empate?}
+    I -- Sí --> J[Empate]
+    I -- No --> K{¿1 vs 3, 2 vs 1 o 3 vs 2?}
+    K -- Sí --> L[Gana jugador]
+    K -- No --> M[Gana computadora]
+    J --> N[Mostrar jugadas, resultado y regla]
+    L --> N
+    M --> N
+    N --> O{¿Jugar otra vez?}
+    O -- Sí --> B
+    O -- No --> Z

@@ -1,0 +1,16 @@
+@startuml
+left to right direction
+actor Jugador
+rectangle "Piedra, Papel o Tijera" {
+ usecase "Consultar instrucciones" as U1
+ usecase "Introducir jugada" as U2
+ usecase "Consultar resultado y regla" as U3
+ usecase "Jugar nuevamente" as U4
+ usecase "Salir o cancelar" as U5
+}
+Jugador -- U1
+Jugador -- U2
+Jugador -- U3
+Jugador -- U4
+Jugador -- U5
+@enduml

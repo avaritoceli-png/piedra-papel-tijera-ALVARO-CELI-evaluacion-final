@@ -1,0 +1,18 @@
+PROYECTO FINAL — PIEDRA, PAPEL O TIJERA
+
+Esta carpeta contiene el código completo, el README, los diagramas y el informe.
+
+PARA GITHUB
+1. Descomprime el ZIP.
+2. Abre tu repositorio de GitHub.
+3. Sube el contenido de esta carpeta, incluyendo las carpetas diagramas y antecedentes. El README.md debe quedar en la página principal del repositorio.
+4. Comprueba que el profesor pueda acceder y entrega el enlace.
+
+PARA JUGAR
+Mantén juego.py y logica.py juntos. Abre una terminal en esta carpeta y ejecuta python3 juego.py (en Windows puedes usar py juego.py). Se necesita Python y Tkinter.
+
+PRESENTACIÓN EN CANVA
+https://www.canva.com/design/DAHXuXUHQNE/z1IuPAr1Iy2xWayqrEm7hw/edit
+
+El video demostrativo final debe grabarse y entregarse por separado.
+Las siete pruebas de lógica pasaron; revisa las ventanas al abrir el juego en tu equipo.

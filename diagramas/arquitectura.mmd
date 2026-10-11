@@ -1,0 +1,13 @@
+%% El diagrama del Autónomo 1 define las responsabilidades.
+%% Esta organización final integra técnicas funcionales de la Unidad 4.
+flowchart TD
+    U[Jugador] <--> I[juego.py: interfaz Tkinter y bucle while]
+    I --> R[random.choice: elección del sistema]
+    R --> L[logica.py: funciones puras]
+    I --> L
+    L --> V[es_opcion_valida]
+    L --> G[determinar_resultado]
+    L --> N[nombre_jugada]
+    N --> M[juego.py: map transforma ambas opciones]
+    G --> I
+    M --> I
